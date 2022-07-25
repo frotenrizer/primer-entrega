@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/loop.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table border="1" id="tabla_promedios">
+        <tr>
+            <td>ID</td>
+            <td>Nombre</td>
+            <td>golesa</td>
+            <td>golesb</td>
+            <td>PROMEDIO</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>benzema</td>
+            <td>10</td>
+            <td>12</td>
+            <td class="promedio"></td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>haland</td>
+            <td>10</td>
+            <td>11</td>
+            <td class="promedio"></td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>romero</td>
+            <td>3</td>
+            <td>3</td>
+            <td class="promedio"></td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>ricardo</td>
+            <td>1</td>
+            <td>1</td>
+            <td class="promedio"></td>
+        </tr>
+
+    </table>
+    <br>
+    <div id="mejorPromedioDiv"></div>
+    <div id="Promediospositivo"></div>
+    <div id="Promediosnegativo"></div>
+    <br>
+
+    <input type="button" value="Calcular promedio" onclick="obtenerPromedios();">
+    <br>
+    <input type="button" value="Mejor promedio" onclick="obtenerDatosMejorPromedio();">
+    <br><br>
+    <input type="button" value="promedios positivo" onclick="promediosAprobatorios();">
+    <br>
+    <input type="button" value="peor promedio" onclick="promediospeor();">       
+</body>
+
+</html>
